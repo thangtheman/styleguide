@@ -12,15 +12,16 @@
 body {
   margin: 0;
   padding-top: 50px;
+    font-family: Karla;
 }
 /* -------------------------------------------------------------------------
  Utility Classes
 ---------------------------------------------------------------------------- */
 .sg-container {
   overflow: hidden;
-  padding: 16px 24px;
-  /* For older browsers */
-  padding: 1rem 1.5rem;
+  max-width: 1156px;
+    padding: 0 52px;
+
 }
 .sg-animated {
   -webkit-transition: all 0.6s ease-out;
@@ -231,20 +232,21 @@ ul.scroll-menu {
   padding: 0 0 .2em 0;
 }
 .sg-font-primary {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: karla;
 }
 .sg-font-secondary {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Karla;
 }
 /* Grid
 ---------------------------------------------------------------------------- */
 .show-grid {
-  padding: .5em 0;
+  padding: 5px 0;
+    text-align: center;
 }
 .show-grid div {
   background-color: #dddddd;
   border: 1px solid #808080;
-  padding: 0.5em;
+  padding: 5px;
 }
 /* Markup
 ---------------------------------------------------------------------------- */
